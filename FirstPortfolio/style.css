@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(2, 2, 35);
+    color:white;
+    font-family:'poppins',sans-serif ;
+}
+*{
+    margin:0;
+    padding: 0;
+    
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(3, 3, 56);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin:0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    color:rgb(88, 88, 177);
+    font-size: 1.02rem;
+}
+.left{
+    font-size: 1.5rem;
+    
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:110px 0px;
+
+}
+.firstsection > div{
+    width: 30%;
+
+}
+.leftsection{
+   
+    font-size: 2.5rem;
+}
+.rightsection{
+ 
+    width:50%;
+}
+.rightsection img{
+  
+    width:80%;
+    
+}
+.purple{
+    color:rgb(139, 36, 236);
+}
+#element{
+    color: rgb(139, 36, 236);
+}
+.secondsection{
+    max-width: 80vw;
+    margin:auto;
+    height: 80vh;
+}
+main hr{
+    border: 0;
+    background: rgb(168, 137, 197);
+    height: 1.4px;
+    margin:30px 90px;
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+.textgrey{
+    color: grey;
+}
+.secondsection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin:56px 0;
+    display: flex;
+}
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin:0 100px;
+
+}
+
